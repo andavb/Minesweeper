@@ -1,0 +1,34 @@
+.gumb{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: Gainsboro;
+  border: 1px solid Black;
+  vertical-align: top;
+  color: black;
+  font-size: 20px;
+  line-height: 50px;
+  transition: 0.2s;
+}
+.gumb.skriti{
+  background-color: Grey;
+  cursor: pointer;
+  /*line-height: 50px;*/
+  /*transition: all 1.0s;*/
+}
+.gumb.skriti.mina{
+  background-color: red;
+}
+.gumb.skriti:hover{
+  background-color: DarkGrey;
+}
+.prikaziMino{
+  background-color: red;
+  background-image: url(bomb.png);
+  background-size: 48px 48px;
+}
+.zastavica{
+  background-color: Grey;
+  background-image: url(flag.png);
+  background-size: 48px 48px;
+}
